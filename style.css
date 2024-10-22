@@ -83,3 +83,33 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+@media (max-width: 800px) {
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 15px;
+  }
+  img {
+    display: none;
+  }
+  .about-img {
+    display: list-item;
+  }
+  .navigation-links {
+    margin: 20px auto;
+  }
+  .primary-link {
+    display: block;
+    margin: 0 auto;
+  }
+  .col-12 {
+    margin-top: -30px;
+  }
+}
