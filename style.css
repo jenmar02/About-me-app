@@ -48,6 +48,10 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+.primary-link:hover {
+  background: #4d44fc;
+  cursor: pointer;
+}
 
 .secondary-link {
   border-radius: 4px;
@@ -56,6 +60,12 @@ p {
   text-transform: capitalize;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+}
+.secondary-link:hover {
+  background: #ceccff;
+  color: white;
+  border: 1px solid #ceccff;
+  cursor: pointer;
 }
 
 .homepage-link {
